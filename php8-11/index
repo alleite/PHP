@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time</title>
+</head>
+<body>
+    <?php
+$data = new DateTime();
+// acesso os métodos por meio de da -> do objeto $data
+echo "Data e hora atual: " . $data -> format('y-m-d h:i:s') . "\n";
+
+// o "j" mostra o dia do mês
+// o "u" retorna o microsegundo
+//xampp pega o fuso horário da alemanha 
+//pesquisar depois como muda o fuso horário no xampp
+
+    ?>
+</body>
+</html>
